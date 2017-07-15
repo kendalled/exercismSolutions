@@ -1,0 +1,8 @@
+def add_gigasecond(x):
+    # Years, days, hours, minutes, seconds, respectively.
+    gigasecond = [305, 249, 1, 46, 40]
+
+    
+
+
+    
