@@ -1,6 +1,6 @@
 def to_rna(n):
-
     res = ''
+    acceptable_list = ['G', 'C', 'T', 'A']
     
     for elem in n:
         if(elem == 'G'):
@@ -13,5 +13,4 @@ def to_rna(n):
             res += 'U'
         if(elem not in 'GCTA'):
             return('')
-        
     return(res)

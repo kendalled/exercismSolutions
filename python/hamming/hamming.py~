@@ -1,4 +1,3 @@
-
 def distance(x, y):
     res = 0
     if(len(x) != len(y)):
